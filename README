@@ -1,0 +1,22 @@
+## Thomas Pham Net ID: TTP190005 
+## Christopher Chan Net ID: CCC180002
+
+Part 2 is the implementation of K means clustering without using any libraries
+
+Link to Dataset: https://archive.ics.uci.edu/dataset/438/health+news+in+twitter
+Libraries Used: pathlib, typing, re, random, math, collections (none of these have versions)
+
+Assumptions:
+  1. Python 3.9.6 installed
+  2. IDE installed (VS Code is recommended)
+  3. Pip 23.0.1 installed
+
+To Run Code
+  1. Navigate to file in IDE after downloading
+  2. Install the necessary libraries
+  3. Make sure you are in the right directory. Change directory by typing cd then the directory name 
+  4. Go to https://archive.ics.uci.edu/dataset/438/health+news+in+twitter
+  5. Press download and unzip the folder. Then move the folder into your current directory as the code
+  6. Select desired dataset and copy the path. Put this path in "FILE_PATH" variable above main.
+  7. You can change the K values as well and number of iterations in the hyperparameters.
+  8. Type python3 part2.py to run code
